@@ -1,0 +1,36 @@
+h1 {
+  display: flex;
+  font-size: 60px;
+  flex-grow: 2;
+  color: whitesmoke;
+  margin-top: 0;
+}
+
+header {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  flex-grow: 1;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+.navLink:hover {
+  color: aquamarine;
+}
+
+nav {
+  flex-grow: 1;
+}

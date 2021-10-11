@@ -1,0 +1,19 @@
+.contact {
+  flex: 1;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: auto;
+  display: flex;
+}
+
+.contact a img {
+  max-width: 70px;
+  max-height: 70px;
+  height: auto;
+  width: auto;
+}
+
+.contact a:hover img {
+  box-shadow: 0px 0px 8px whitesmoke;
+}
